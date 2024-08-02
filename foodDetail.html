@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Food Details</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      /* padding: 20px; */
+      background-color: #f0f0f0;
+    }
+
+    .navbar {
+      background-color: #d4d94c;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .navbar ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    .navbar ul li {
+      margin-right: 20px;
+    }
+
+    .navbar ul li a {
+      text-decoration: none;
+      color: #000;
+      font-weight: bold;
+    }
+
+    .logo {
+      background-color: #38b3e5;
+      padding: 10px 20px;
+      color: #fff;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+    .food-details {
+      padding: 20px;
+    }
+
+    .food-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+
+    .food-table th,
+    .food-table td {
+      border: 1px solid #ddd;
+      padding: 8px;
+    }
+
+    .food-table th {
+      background-color: #f2f2f2;
+      font-weight: bold;
+      text-align: left;
+    }
+
+    .food-table td img {
+      max-width: 100px;
+      height: auto;
+    }
+
+    .request-food {
+      display: block;
+      margin: 20px auto;
+      padding: 10px 20px;
+      background-color: #4caf50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #f0f0f0;
+    }
+
+    .social-media {
+      display: flex;
+      justify-content: center;
+    }
+
+    .social-media a {
+      margin: 0 10px;
+      color: #333;
+      font-size: 24px;
+    }
+  </style>
+  <body>
+    <header>
+      <nav class="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aboutUs.html">About</a></li>
+          <li><a href="availableFood.html">Available Food List</a></li>
+          <li><a href="contactUs.html">Contact</a></li>
+          <li><a href="donorlogin.html">Donor</a></li>
+          <li><a href="adminLogin.html">Admin</a></li>
+        </ul>
+        <div class="logo">FWMS</div>
+      </nav>
+      <div class="logo">
+        <img
+          src="http://googleusercontent.com/image_generation_content/20"
+          alt="FWMS Logo"
+        />
+      </div>
+    </header>
+
+    <section class="food-details">
+      <h2>Food Details</h2>
+      <table class="food-table">
+        <tr>
+          <th>Registered By</th>
+          <td>Anuj Kumar</td>
+        </tr>
+        <tr>
+          <th>Registered Mobile Number</th>
+          <td>4877799797</td>
+        </tr>
+        <tr>
+          <th>Registered Email</th>
+          <td>anuj@gmail.com</td>
+        </tr>
+        <tr>
+          <th>Contact Person</th>
+          <td></td>
+        </tr>
+        <tr>
+          <th>Contact Person Mobile Number</th>
+          <td>1478523699</td>
+        </tr>
+        <tr>
+          <th>Pick Up Address</th>
+          <td>H 23423 Sector 10</td>
+        </tr>
+        <tr>
+          <th>State Name</th>
+          <td>Uttar Pradesh</td>
+        </tr>
+        <tr>
+          <th>City Name</th>
+          <td>Allahabad</td>
+        </tr>
+        <tr>
+          <th>Description</th>
+          <td>Good Quality Food</td>
+        </tr>
+        <tr>
+          <th>Pick Up Date</th>
+          <td>2024-07-28</td>
+        </tr>
+        <tr>
+          <th>Image</th>
+          <td>
+            <img
+              src="http://googleusercontent.com/image_generation_content/20"
+              alt="Food Image"
+            />
+          </td>
+        </tr>
+        <tr>
+          <th>Status</th>
+          <td>Not Confirmed Yet</td>
+        </tr>
+      </table>
+      <button class="request-food">Request Food</button>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 Food Waste Management System</p>
+      <ul class="social-media">
+        <li>
+          <a href="https://www.facebook.com" target="_blank"
+            ><i class="fab fa-facebook"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com" target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com" target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>

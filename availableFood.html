@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Available Food List</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background-color: #f0f0f0;
+    }
+
+    .navbar {
+      background-color: #d4d94c;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .navbar ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    .navbar ul li {
+      margin-right: 20px;
+    }
+
+    .navbar ul li a {
+      text-decoration: none;
+      color: #000;
+      font-weight: bold;
+    }
+
+    .logo {
+      background-color: #38b3e5;
+      padding: 10px 20px;
+      color: #fff;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+
+    .food-list {
+      padding: 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th,
+    td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #f0f0f0;
+    }
+
+    .social-media {
+      display: flex;
+      justify-content: center;
+    }
+
+    .social-media a {
+      margin: 0 10px;
+      color: #333;
+      font-size: 24px;
+    }
+  </style>
+  <body>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutUs.html">About</a></li>
+        <li><a href="availableFood.html">Available Food List</a></li>
+        <li><a href="contactUs.html">Contact</a></li>
+        <li><a href="donorlogin.html">Donor</a></li>
+        <li><a href="adminLogin.html">Admin</a></li>
+      </ul>
+      <div class="logo">FWMS</div>
+    </nav>
+
+    <section class="food-list">
+      <h2>Available Food List</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>S.NO</th>
+            <th>Contact Person</th>
+            <th>Contact Person Mobile Number</th>
+            <th>Food Items</th>
+            <th>Address</th>
+            <th>State Name</th>
+            <th>City Name</th>
+            <th>Creation Date</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Dip Pal</td>
+            <td>8016054826</td>
+            <td>Dal, Rice, Roti, Panner</td>
+            <td>H-234/23, Sector 10</td>
+            <td>West Bengal</td>
+            <td>Kolkata</td>
+            <td>2024-07-28 14:54:51</td>
+            <td><a href="foodDetail.html">View Details</a></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Abhinash Panigrahi</td>
+            <td>9874563210</td>
+            <td>Dal, Makhni Bread, Rice</td>
+            <td>J-466 ABC Street</td>
+            <td>Andra Pradesh</td>
+            <td>Visakhapatnam</td>
+            <td>2024-07-27 15:50:35</td>
+            <td><a href="#">View Details</a></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Satyakam Satapathy</td>
+            <td>8018371081</td>
+            <td>Paneer Tikka, Butter Naan</td>
+            <td>Bidyadharpur</td>
+            <td>Maharashtra</td>
+            <td>Mumbai</td>
+            <td>2024-07-26 15:45:35</td>
+            <td><a href="#">View Details</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 Food Waste Management System</p>
+      <ul class="social-media">
+        <li>
+          <a href="https://www.facebook.com" target="_blank"
+            ><i class="fab fa-facebook"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com" target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com" target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>

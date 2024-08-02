@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Food Waste Management System</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <style>
+    /* Your CSS styles */
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    #contact {
+      padding: 40px;
+      text-align: center;
+    }
+
+    .contact-info {
+      /* float: left; */
+      display: inline-block;
+      margin-top: 0;
+      /* background-color: #4caf50; */
+      height: 500px;
+
+      position: relative;
+      top: -120px;
+      margin-right: 20px;
+    }
+    .contact-info20 {
+      margin-bottom: 30px;
+
+      display: inline-block;
+
+      height: 500px;
+      margin-left: 20px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    label {
+      margin-bottom: 10px;
+    }
+
+    input,
+    textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      width: 300px;
+    }
+
+    button {
+      background-color: #4caf50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #f0f0f0;
+    }
+
+    .social-media {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+    }
+
+    .social-media li {
+      margin: 0 10px;
+    }
+
+    .social-media a {
+      color: #333;
+      font-size: 24px;
+    }
+
+    /* Additional CSS styles */
+    .navbar {
+      background-color: #d4d94c;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .navbar ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    .navbar ul li {
+      margin-right: 20px;
+    }
+
+    .navbar ul li a {
+      text-decoration: none;
+      color: #000;
+      font-weight: bold;
+    }
+
+    .logo {
+      background-color: #38b3e5;
+      padding: 10px 20px;
+      color: #fff;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+    .si {
+      display: flex;
+      margin-top: 0;
+
+      background-color: aquamarine;
+    }
+  </style>
+  <body>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutUs.html">About</a></li>
+        <li><a href="availableFood.html">Available Food List</a></li>
+        <li><a href="contactUs.html">Contact</a></li>
+        <li><a href="donorlogin.html">Donor</a></li>
+        <li><a href="adminLogin.html">Admin</a></li>
+      </ul>
+      <div class="logo">FWMS</div>
+    </nav>
+
+    <section id="contact">
+      <h2>CONTACT</h2>
+      <div id="si">
+        <div class="contact-info">
+          <form>
+            <label for="first-name">First Name</label><br />
+            <input type="text" id="first-name" name="first-name" required />
+
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" name="last-name" required />
+
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" />
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message"></textarea>
+
+            <button type="submit">Send</button>
+          </form>
+        </div>
+        <div class="contact-info20">
+          <h3 style="margin-top: 20px">Food Waste Management System</h3>
+          <p>Address: Cuttack</p>
+          <p>Contact Number: +918984500524</p>
+          <p>Email: bishwajit@gmail.com</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 Food Waste Management System</p>
+      <ul class="social-media">
+        <li>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fas fa-arrow-up"></i></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
