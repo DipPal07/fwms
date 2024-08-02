@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Food Request Details</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2d9e2; /* Replace with your background color */
+      overflow: hidden; /* Prevents scrolling */
+    }
+
+    /* Layout */
+    .container {
+      display: flex;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .sidebar {
+      width: 200px;
+      background-color: #d9b8c0; /* Replace with your sidebar color */
+      padding: 10px; /* Reduced padding */
+    }
+
+    .content {
+      flex: 1;
+      padding: 10px; /* Reduced padding */
+      overflow: hidden;
+    }
+
+    /* Header */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px; /* Reduced padding */
+      background-color: #333;
+      color: white;
+      font-size: 14px; /* Reduced font size */
+    }
+
+    .icons {
+      display: flex;
+      gap: 5px; /* Reduced gap */
+    }
+
+    .user img {
+      width: 30px; /* Smaller user icon */
+      height: 30px; /* Smaller user icon */
+    }
+
+    /* Sidebar */
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .sidebar li {
+      margin-bottom: 5px; /* Reduced margin */
+    }
+
+    .sidebar a {
+      text-decoration: none;
+      color: #333;
+      font-size: 14px; /* Reduced font size */
+    }
+
+    /* Content */
+    .content h2 {
+      text-align: center;
+      font-size: 18px; /* Reduced font size */
+      margin: 10px 0; /* Reduced margin */
+    }
+
+    .table-container {
+      overflow-x: auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px; /* Reduced font size */
+    }
+
+    table,
+    th,
+    td {
+      border: 1px solid #ddd;
+    }
+
+    th,
+    td {
+      padding: 5px; /* Reduced padding */
+      text-align: left;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      font-size: 12px; /* Reduced font size */
+      background-color: #333;
+      color: white;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+
+  <body>
+    <header>
+      <h1>DONOR</h1>
+      <div class="icons">
+        <i class="fa fa-bell"></i>
+        <i class="fa fa-search"></i>
+      </div>
+      <div class="user">
+        <img src="user-icon.png" alt="User Profile" />
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="sidebar">
+        <ul>
+          <li><a href="#">Dashboard</a></li>
+          <li><a href="#">List Your Food Details</a></li>
+          <li><a href="#">Requests</a></li>
+        </ul>
+      </div>
+
+      <div class="content">
+        <h2>View Request Details of #810622255</h2>
+        <div class="table-container">
+          <table>
+            <tr>
+              <th>Field</th>
+              <th>Details</th>
+            </tr>
+            <tr>
+              <td>Registered By</td>
+              <td>Test</td>
+            </tr>
+            <tr>
+              <td>Registered Email</td>
+              <td>test@gmail.com</td>
+            </tr>
+            <tr>
+              <td>Contact Person Mobile Number</td>
+              <td>9797989798</td>
+            </tr>
+            <tr>
+              <td>City Name</td>
+              <td>Aligarh</td>
+            </tr>
+            <tr>
+              <td>Pick Up Date</td>
+              <td>2024-07-23</td>
+            </tr>
+            <tr>
+              <td>Image</td>
+              <td>
+                <img
+                  src="food-image.jpg"
+                  alt="Food Image"
+                  style="max-width: 100%"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>Registered Mobile Number</td>
+              <td>8979987979</td>
+            </tr>
+            <tr>
+              <td>Contact Person</td>
+              <td>Kanchban</td>
+            </tr>
+            <tr>
+              <td>State Name</td>
+              <td>Uttar Pradesh</td>
+            </tr>
+            <tr>
+              <td>Description</td>
+              <td>kggjkhiulyw4r kjfywi jluoiger</td>
+            </tr>
+            <tr>
+              <td>Pick Up Address</td>
+              <td>h-909. hbjk bangipow</td>
+            </tr>
+            <tr>
+              <td>Status</td>
+              <td>Not Confirmed Yet</td>
+            </tr>
+            <tr>
+              <td>Requested By</td>
+              <td>Tets Test</td>
+            </tr>
+            <tr>
+              <td>Requester Mobile No.</td>
+              <td>7895461236</td>
+            </tr>
+            <tr>
+              <td>Message</td>
+              <td>kjhkj</td>
+            </tr>
+            <tr>
+              <td>Request Date</td>
+              <td>2024-07-23 14:44:00</td>
+            </tr>
+            <tr>
+              <td>Status</td>
+              <td>
+                <select>
+                  <option value="option1">Option 1</option>
+                  <option value="option2">Option 2</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>Remark</td>
+              <td><textarea></textarea></td>
+            </tr>
+            <tr>
+              <td colspan="2" style="text-align: center">
+                <button>Update</button>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <footer>© 2024 Food Waste Management System. All rights reserved.</footer>
+  </body>
+</html>
