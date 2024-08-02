@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Admin Listed Food</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2d9e2; /* Replace with the actual background color */
+    }
+
+    .container {
+      display: flex;
+    }
+
+    .sidebar {
+      width: 200px;
+      background-color: #d9b8c0; /* Replace with the actual sidebar color */
+      padding: 20px;
+    }
+
+    /* ... rest of the CSS */
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      border: 1px solid #ccc;
+    }
+
+    th,
+    td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: left;
+    }
+
+    button   {
+      background-color: #4caf50;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+  </style>
+
+  <body>
+    <header>
+      <h1>ADMIN</h1>
+    </header>
+
+    <div class="container">
+      <div class="sidebar">
+        <ul>
+          <li><a href="#">Dashboard</a></li>
+          <li><a href="#">State</a></li>
+          <li><a href="#">City</a></li>
+          <li><a href="#">Reg Food Donors</a></li>
+          <li><a href="#">Listed Foods</a></li>
+          <li><a href="#">Food Requests</a></li>
+          <li><a href="#">Enquiry</a></li>
+          <li><a href="#">Pages</a></li>
+          <li><a href="#">Reports</a></li>
+        </ul>
+      </div>
+
+      <div class="content">
+        <h2>ALL LISTED FOOD REQUESTS</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>S.NO</th>
+              <th>Food ID</th>
+              <th>Registered By</th>
+              <th>Register Mobile Number</th>
+              <th>Contact Person</th>
+              <th>Contact Person Mobile Number</th>
+              <th>Food Items</th>
+              <th>Request Date</th>
+              <th>Action</th>
+               
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>3301107055</td>
+              <td>Anuj Kumar</td>
+              <td>4877798797</td>
+              <td>John</td>
+              <td>1478523499</td>
+              <td>Dal, Rice, Roti, Papad</td>
+              <td>2022-01-22 14:54:31</td>
+              <td><button>View Details</button></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>372165118</td>
+              <td>John Doe</td>
+              <td>1234567890</td>
+              <td>Rahul Singh</td>
+              <td>9876543210</td>
+              <td>Dal, Mathri, Bread, Rice</td>
+              <td>2022-01-22 15:50:25</td>
+              <td><button>View Details</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <footer>© 2024 Food Waste Management System. All rights reserved.</footer>
+  </body>
+</html>
