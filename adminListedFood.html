@@ -9,16 +9,46 @@
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #f2d9e2; /* Replace with the actual background color */
+      background-color: #FDFCDC; /* Replace with the actual background color */
     }
-
     .container {
       display: flex;
+      min-height: 100vh;
     }
 
     .sidebar {
+      background-color: #0081a7;
+      color: #fff;
       width: 200px;
-      background-color: #d9b8c0; /* Replace with the actual sidebar color */
+      padding: 10px;
+    }
+
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .sidebar li {
+      /* margin-bottom: 2px; */
+      /* background-color: aqua; */
+      padding: 10px 20px;
+      /* text-align: center; */
+      border-radius: 10px;
+      margin-bottom: 3px;
+    }
+    .sidebar li:hover {
+      background-color: #00AFB9;
+    }
+
+    .sidebar a {
+      color: #fff;
+      text-decoration: none;  
+
+    }
+
+    .main-content {
+      flex-grow: 1;
       padding: 20px;
     }
 
@@ -44,28 +74,40 @@
       padding: 10px 20px;
       cursor: pointer;
     }
+     #brandlogo{
+      height: 80px;
+      width: 80px;
+      border-radius: 50%;
+      flex-wrap: wrap;
+      margin-left: 15px;
+      margin-bottom: 10;
+      
+      
+      
+    }
   </style>
 
   <body>
-    <header>
-      <h1>ADMIN</h1>
-    </header>
-
     <div class="container">
+       <div class="container">
       <div class="sidebar">
-        <ul>
-          <li><a href="#">Dashboard</a></li>
-          <li><a href="#">State</a></li>
-          <li><a href="#">City</a></li>
-          <li><a href="#">Reg Food Donors</a></li>
-          <li><a href="#">Listed Foods</a></li>
+        <div class="logo">
+          <img src="./image/logo.jpeg" alt="Logo" id="brandlogo" />
+        </div>
+         <ul>
+          <li><a href="adminDashboard.html">Dashboard</a></li>
+
+          <li><a href="adminRegisteredFoodDonor.html">Reg Food Donors</a></li>
+          <li><a href="adminListedFood.html">Listed Foods</a></li>
           <li><a href="#">Food Requests</a></li>
-          <li><a href="#">Enquiry</a></li>
+          <li><a href="#">Capacity</a></li>
           <li><a href="#">Pages</a></li>
           <li><a href="#">Reports</a></li>
+          <li><a href="#">State</a></li>
+          <li><a href="#">City</a></li>
+          <li><a href="index.html">Log out</a></li>
         </ul>
       </div>
-
       <div class="content">
         <h2>ALL LISTED FOOD REQUESTS</h2>
         <table>
@@ -111,6 +153,6 @@
       </div>
     </div>
 
-    <footer>© 2024 Food Waste Management System. All rights reserved.</footer>
+    
   </body>
 </html>

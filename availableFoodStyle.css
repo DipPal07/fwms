@@ -2,6 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #FDFCDC;
 }
 
 header {
@@ -13,11 +14,12 @@ header {
 }
 
 .navbar {
-  background-color: #d4d94c;
+  background-color: #0081A7;
   padding: 10px 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+
 }
 
 .navbar ul {
@@ -33,17 +35,10 @@ header {
 
 .navbar ul li a {
   text-decoration: none;
-  color: #000;
+  color:white;
   font-weight: bold;
 }
 
-.logo {
-  background-color: #38b3e5;
-  padding: 10px 20px;
-  color: #fff;
-  font-weight: bold;
-  border-radius: 5px;
-}
 
 .food-list {
   padding: 20px;
@@ -68,7 +63,9 @@ th {
 footer {
   text-align: center;
   padding: 20px;
-  background-color: #f0f0f0;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
 }
 
 .social-media {

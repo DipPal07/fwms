@@ -9,16 +9,47 @@
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
+<<<<<<< HEAD
       background-color: #f2d9e2; /* Replace with your background color */
      /* Prevents scrolling */
     }
+=======
+      background-color: #fdfcdc; /* Replace with your background color */
+      overflow: hidden; /* Prevents scrolling */
+    }
+
+    /* Layout */
+    .container {
+      display: flex;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .sidebar {
+      width: 200px;
+      background-color: #0081a7; /* Replace with your sidebar color */
+      padding: 10px; /* Reduced padding */
+    }
+
+    .content {
+      flex: 1;
+      padding: 10px; /* Reduced padding */
+      overflow: hidden;
+    }
+
+>>>>>>> dip
     /* Header */
     header {
       display: flex;
       justify-content: space-between;
       align-items: center;
+<<<<<<< HEAD
       padding: 1px; /* Reduced padding */
       background-color: #333;
+=======
+      padding: 6px; /* Reduced padding */
+      background-color: #00afb9;
+>>>>>>> dip
       color: white;
       font-size: 14px; /* Reduced font size */
     }
@@ -59,8 +90,15 @@
     }
 
     .sidebar a {
+<<<<<<< HEAD
       color: #fff;
       text-decoration: none;  
+=======
+      text-decoration: none;
+      color: white;
+      font-size: 14px; /* Reduced font size */
+    }
+>>>>>>> dip
 
     }
     .content {
@@ -143,7 +181,7 @@
       text-align: center;
       padding: 10px;
       font-size: 12px; /* Reduced font size */
-      background-color: #333;
+      background-color: #f07167;
       color: white;
       position: absolute;      
       width: 100%;
@@ -160,7 +198,10 @@
         <i class="fa fa-search"></i>
       </div>
       <div class="user">
-        <img src="user-icon.png" alt="User Profile" />
+        <img
+          src="/image/logo.jpeg"
+          style="height: 50px; width: 50px; border-radius: 50%"
+        />
       </div>
     </header>
 
@@ -171,6 +212,7 @@
           <li><a href="donorAddFood.html">List Your Food Details</a></li>
           <li><a href="donorNewFoodRequest.html">Requests</a></li>
           <li><a href="#">Search</a></li>
+          <li><a href="index.html">Log out</a></li>
         </ul>
       </div>
 
@@ -206,9 +248,9 @@
               <td>Image</td>
               <td>
                 <img
-                  src="food-image.jpg"
+                  src="/images_all//img1.jpeg"
                   alt="Food Image"
-                  style="max-width: 100%"
+                  style="height: 100px; border-radius: 10px"
                 />
               </td>
             </tr>
@@ -267,7 +309,9 @@
             </tr>
             <tr>
               <td colspan="2" style="text-align: center">
-                <button>Update</button>
+                <button style="background-color: black; color: white">
+                  Update
+                </button>
               </td>
             </tr>
           </table>

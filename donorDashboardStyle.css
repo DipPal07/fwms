@@ -2,6 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #fdfcdc;
 }
 
 .container {
@@ -10,9 +11,9 @@ body {
 }
 
 .sidebar {
-  background-color: #5c5656;
+  background-color: #0081a7;
   color: #fff;
-  width: 400px;
+  width: 250px;
   padding: 10px;
 }
 
@@ -31,7 +32,7 @@ body {
   margin-bottom: 3px;
 }
 .sidebar li:hover {
-  background-color: aquamarine;
+  background-color: #00AFB9;
 }
 
 .sidebar a {
@@ -46,7 +47,7 @@ body {
 }
 
 .header {
-  background-color: var(--primary-green); /* or use a specific color code: #4CAF50 */
+  background-color: #00AFB9; /* or use a specific color code: #4CAF50 */
   color: var(--white);
   padding: 20px;
   border-radius: 5px;
@@ -88,13 +89,14 @@ display: flex;
 }
 
 .box {
-  background-color: #f0f0f0;
+  background-color: #ffd60a;
   padding: 20px;
   text-align: center;
+  border-radius: 20px;
 }
 
 footer {
   text-align: center;
   padding: 10px;
-  background-color: #f0f0f0;
+  background-color:#f07167;
     }
