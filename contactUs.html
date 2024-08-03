@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -21,59 +22,56 @@
     </nav>
 
     <section id="contact">
-      <h2>CONTACT</h2>
-      <div id="si">
+      <h2 align="center" style="color: rgb(7, 148, 195);" padding="10px">CONTACT</h2>
+      
         <div class="contact-info">
           <form>
-            <label class="fromlabel" for="first-name">First Name</label>
-            <input
-              class="fromInput"
-              type="text"
-              id="first-name"
-              name="first-name"
-              required
-            />
+            <label for="first-name"><b>First Name</b></label>
+            <input type="text" placeholder="first name" id="first-name" name="first-name" required >
+<br>
+            <label for="last-name" style="align-items: left;"><b>Last Name</b></label>
+            <input type="text" placeholder="last name" id="last-name" name="last-name" required >
+<br>
+            <label for="phone"><b>Phone</b></label>
+            <input type="tel" placeholder="phone" id="phone" name="phone" />
+<br>
+            <label for="email"><b>Email</b></label>
+            <input type="email" placeholder="email" id="email" name="email" required />
 
-            <label class="fromlabel" for="last-name">Last Name</label>
-            <input
-              class="fromInput"
-              type="text"
-              id="last-name"
-              name="last-name"
-              required
-            />
+            <label for="message" ><b>Message</b></label>
+            <textarea id="message" style="padding: 40px;" style="text-align: left;" name="message"></textarea>
 
-            <label class="fromlabel" for="phone">Phone</label>
-            <input class="fromInput" type="tel" id="phone" name="phone" />
-
-            <label class="fromlabel" for="email">Email</label>
-            <input
-              class="fromInput"
-              type="email"
-              id="email"
-              name="email"
-              required
-            />
-
-            <label class="fromlabel" for="message">Message</label>
-            <textarea class="fromInput" id="message" name="message"></textarea>
-
-            <div style="text-align: center">
-              <button type="submit">Send</button>
-            </div>
+            <button type="submit" style="width: 18%;">Send</button>
           </form>
         </div>
         <div class="contact-info20">
-          <h3>Food Waste Management System</h3>
-          <p>Address: Cuttack</p>
-          <p>Contact Number: +918984500524</p>
-          <p>Email: bishwajit@gmail.com</p>
+          <h3 style="margin-top: 20px">Food Waste Management System</h3>
+          <p><b>Address: </b>Cuttack</p>
+          <p><b>Contact Number:</b> +918984500524</p>
+          <p><b>Email:</b> bishwajit@gmail.com</p>
         </div>
       </div>
     </section>
 
     <footer>
       <p>&copy; 2023 Food Waste Management System</p>
+      <ul class="social-media">
+        <li>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fas fa-arrow-up"></i></a>
+        </li>
+      </ul>
     </footer>
   </body>
 </html>
