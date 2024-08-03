@@ -10,72 +10,107 @@
       margin: 0;
       padding: 0;
       background-color: #f2d9e2; /* Replace with your background color */
-      overflow: hidden; /* Prevents scrolling */
+     /* Prevents scrolling */
     }
-
-    /* Layout */
-    .container {
-      display: flex;
-      height: 100vh;
-      overflow: hidden;
-    }
-
-    .sidebar {
-      width: 200px;
-      background-color: #d9b8c0; /* Replace with your sidebar color */
-      padding: 10px; /* Reduced padding */
-    }
-    
-
-    .content {
-      flex: 1;
-      padding: 10px; /* Reduced padding */
-      overflow: hidden;
-    }
-
     /* Header */
     header {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 6px; /* Reduced padding */
+      padding: 1px; /* Reduced padding */
       background-color: #333;
       color: white;
       font-size: 14px; /* Reduced font size */
     }
-
-    .icons {
-      display: flex;
-      gap: 5px; /* Reduced gap */
-    }
-
-    .user img {
-      width: 30px; /* Smaller user icon */
-      height: 30px; /* Smaller user icon */
-    }
-
-    /* Sidebar */
-    .sidebar ul {
-      list-style: none;
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
       padding: 0;
     }
 
+    .container {
+      display: flex;
+      height: 100vb;
+    }
+
+       .sidebar {
+      background-color: #5c5656;
+      color: #fff;
+      width: 200px;
+      padding: 10px;
+    }
+
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
     .sidebar li {
-      margin-bottom: 5px; /* Reduced margin */
+      /* margin-bottom: 2px; */
+      /* background-color: aqua; */
+      padding: 10px 20px;
+      /* text-align: center; */
+      border-radius: 10px;
+      margin-bottom: 3px;
+    }
+    .sidebar li:hover {
+      background-color: aquamarine;
     }
 
     .sidebar a {
-      text-decoration: none;
-      color: #333;
-      font-size: 14px; /* Reduced font size */
-    }
- 
+      color: #fff;
+      text-decoration: none;  
 
-    /* Content */
-    .content h2 {
+    }
+    .content {
+      flex-grow: 1;
+      padding: 5px;
+      padding-bottom: 20px;
+    }
+
+    h2 {
       text-align: center;
-      font-size: 18px; /* Reduced font size */
-      margin: 10px 0; /* Reduced margin */
+     
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    label {
+      margin-bottom: 5px;
+    }
+
+    input {
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    button {
+      height: 30px;
+      background-color: #000000;
+      color: rgb(255, 255, 255);
+      border: none;
+     
+      width: 100px;
+      border-radius: 10px;
+      
+
+    }
+
+    
+    #brandlogo{
+      height: 80px;
+      width: 80px;
+      border-radius: 50%;
+      flex-wrap: wrap;
+      margin-left: 15px;
+      margin-bottom: 10;
+      
+      
+      
     }
 
     .table-container {
@@ -110,9 +145,10 @@
       font-size: 12px; /* Reduced font size */
       background-color: #333;
       color: white;
-      position: absolute;
-      bottom: 0;
+      position: absolute;      
       width: 100%;
+     
+      
     }
   </style>
 
@@ -131,9 +167,9 @@
     <div class="container">
       <div class="sidebar">
         <ul>
-          <li><a href="#">Dashboard</a></li>
-          <li><a href="#">List Your Food Details</a></li>
-          <li><a href="#">Requests</a></li>
+          <li><a href="donorDashboard.html">Dashboard</a></li>
+          <li><a href="donorAddFood.html">List Your Food Details</a></li>
+          <li><a href="donorNewFoodRequest.html">Requests</a></li>
           <li><a href="#">Search</a></li>
         </ul>
       </div>
@@ -152,7 +188,7 @@
             </tr>
             <tr>
               <td>Registered Email</td>
-              <td>@gmail.com</td>
+              <td>dipankar@gmail.com</td>
             </tr>
             <tr>
               <td>Contact Person Mobile Number</td>
